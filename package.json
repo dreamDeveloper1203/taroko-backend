@@ -1,0 +1,25 @@
+{
+  "name": "taroko-server",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">= 12.18.4"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "NODE_ENV=development nodemon ./bin/www",
+    "start-prod": "NODE_ENV=production node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
